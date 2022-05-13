@@ -9,7 +9,5 @@ export default function PlotGraph({ chartType }) {
     "2D_Yield_Curve": <Plot_2D_YieldCurves />,
   };
 
-  console.log(chartType);
-
   return _component[chartType];
 }
