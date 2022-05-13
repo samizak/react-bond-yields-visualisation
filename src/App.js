@@ -7,7 +7,7 @@ import PlotGraph from "./components/PlotGraph";
 import "./App.css";
 
 function App() {
-  const [chartType, setSymbol] = useState(Symbols["2D_Yield_Curve"]);
+  const [chartType, setSymbol] = useState("3D_Yield_Curve");
 
   return (
     <div className="App">
@@ -15,7 +15,7 @@ function App() {
         <div className="symbol-search">
           <Autocomplete
             id="autocomplete-symbol-search"
-            defaultValue={Symbols["2D_Yield_Curve"]}
+            defaultValue={Symbols["3D_Yield_Curve"]}
             options={Object.keys(Symbols).map((key) => Symbols[key])}
             sx={{ width: "100%" }}
             onChange={(e, _value) =>
