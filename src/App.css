@@ -2,6 +2,21 @@
   text-align: center;
 }
 
+.symbol-search {
+  display: flex;
+  justify-content: space-between;
+  max-width: 400px;
+  margin: 0 auto;
+
+  padding: 10px 0;
+}
+
+.symbol-search-div {
+  background: #a0c5e8;
+  padding-top: 10px;
+  width: 100%;
+}
+
 .graph-plot {
   display: block;
   margin-left: auto;
